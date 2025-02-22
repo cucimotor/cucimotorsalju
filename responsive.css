@@ -1,0 +1,233 @@
+@media only screen and (max-width: 768px) {
+  /* header */
+  marquee {
+    font-size: 14px;
+  }
+
+  /* navbar */
+  .menu {
+    display: flex;
+  }
+  .navbar .navlink {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 15px 0px 60px 20px;
+    top: 55px;
+    left: -900px;
+    line-height: 45px;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    box-shadow: 1px 3px 5px rgba(1, 1, 3, 0.3);
+  }
+  .navbar .nContainer .navlink li a {
+    font-size: 15px;
+  }
+  .navbar .nContainer .navlink.show {
+    left: 0px;
+    transition: 0.3s ease;
+  }
+
+  /* beranda */
+  .beranda {
+    padding-top: 20px;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .beranda .bContainer h4 {
+    padding-top: 90px;
+    font-size: 25px;
+  }
+  .beranda .bContainer h1 {
+    font-size: 40px;
+  }
+  .beranda .bContainer p {
+    font-size: 15px;
+  }
+
+  /* tambahan */
+  .tambahan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tambahan img {
+    margin-top: 1rem;
+    width: 230px;
+    display: flex;
+    border-radius: 30%;
+    margin-bottom: 1rem;
+    box-shadow: 1px 3px 5px rgba(1, 1, 3, 0.3);
+  }
+  .tambahan img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+  #jam {
+    margin-top: 1rem;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--biru);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: "Protest Riot", serif;
+    box-shadow: 1px 3px 5px rgba(1, 1, 3, 0.3);
+  }
+
+  /* card */
+  .cardd {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .cardd .card-aos {
+    width: 155px;
+  }
+  .cardd .card-aos .card-img {
+    width: 155px;
+    height: 182px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .cardd .card-aos .card-img img {
+    width: 155px;
+  }
+  .cardd .card-aos .card-img h4 {
+    font-size: 13px;
+  }
+
+  /* about */
+  .about {
+    flex-wrap: wrap;
+  }
+  .about .box-about {
+    width: 80%;
+    height: auto;
+  }
+
+  /* tentang */
+  .tentang .tContainer {
+    flex-direction: column;
+  }
+  .tentang .tContainer img {
+    width: 100%;
+  }
+  .tentang .tContainer .text p {
+    width: 100%;
+  }
+
+  /* lokasi */
+  .lokasi .content .box-lokasi {
+    flex-direction: column;
+  }
+  .lokasi .content .box-lokasi p {
+    width: 100%;
+  }
+  .lokasi .content .box-lokasi iframe {
+    width: 100%;
+  }
+
+  /* layanan */
+  .layanan h6 {
+    width: 80%;
+    text-align: justify;
+  }
+  .layanan .paket {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .layanan .paket .biasa,
+  .layanan .paket .premium {
+    width: 100%;
+  }
+
+  /* pelanggan */
+  .galeri .box-galeri .box-image {
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 3px 5px rgba(1, 1, 3, 0.3);
+  }
+  .galeri .box-galeri .box-image .image {
+    width: 170px;
+  }
+  .galeri .box-galeri .box-image .image img {
+    width: 170px;
+  }
+  .galeri .box-galeri .box-image .image a {
+    font-size: 15px;
+  }
+
+  /* video */
+  .video .src {
+    width: 100%;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(1, 1, 3, 0.3);
+  }
+  .video .src .isi {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--boxshadow);
+    border-radius: 10px;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 3px 5px rgba(1, 1, 3, 0.3);
+  }
+  .video .src iframe {
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+  }
+
+  /* kontak */
+  .kontak p {
+    width: 80%;
+    text-align: justify;
+  }
+  .box-kontak {
+    flex-direction: column;
+  }
+  .kontak form {
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .kontak .box-kontak form button {
+    width: 50%;
+  }
+
+  /* footer */
+  footer .links {
+    gap: 10px;
+  }
+  footer .links a {
+    font-size: 14px;
+  }
+  footer .credit a {
+    font-size: 14px;
+  }
+}
